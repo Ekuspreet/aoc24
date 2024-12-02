@@ -16,4 +16,5 @@ for i in range(1000):
     l = heapq.heappop(left)
     r = heapq.heappop(right)
     result = result + ( abs( r - l )  ) 
+    
 print(result)
